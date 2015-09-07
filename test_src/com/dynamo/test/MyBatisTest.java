@@ -28,7 +28,7 @@ public class MyBatisTest {
 		return sqlSessionFactory;
 	}
 
-	//使用这种方式的时候，记得修改User.xml中的namespace
+	//使用这种方式的时候，记得修改User.xml中的namespaceb 
 	@Test
 	public void testByNature() {
 		SqlSession session = sqlSessionFactory.openSession();
